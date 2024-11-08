@@ -5,7 +5,7 @@
         "headers": [
           {
             "key": "Content-Security-Policy",
-            "value": "frame-ancestors 'self' https://embraed--devservice.sandbox.my.salesforce.com *.embraed--devservice.sandbox.my.salesforce.com embraed--devservice--c.sandbox.vf.force.com"
+            "value": "frame-ancestors 'self'"
           }
         ]
       }
