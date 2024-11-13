@@ -19,10 +19,7 @@
 					scrt2URL: 'https://embraed--devservice.sandbox.my.salesforce-scrt.com'
 				}
 			);
-
-			embeddedservice_bootstrap.on('afterInit', function() {
 			embeddedservice_bootstrap.openMessagingWindow();
-			});
 		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
 		}
