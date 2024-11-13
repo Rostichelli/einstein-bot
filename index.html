@@ -4,23 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-	    <!-- Estilo para customizar o botão do chat -->
-    <style>
-        /* Customizando a cor do botão do bate-papo para azul */
-        .embeddedServiceHelpButton .helpButton .helpButtonLabel {
-            background-color: #007bff; /* Cor azul */
-            color: #ffffff; /* Cor do texto */
-            font-size: 16px; /* Tamanho do texto */
-            padding: 10px 20px; /* Espaçamento interno */
-            border-radius: 8px; /* Borda arredondada */
-        }
-
-        /* Alteração de cor ao passar o mouse no botão */
-        .embeddedServiceHelpButton .helpButton .helpButtonLabel:hover {
-            background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
-        }
-    </style>
 </head>
 <body>
 <script type='text/javascript'>
@@ -36,7 +19,6 @@
 					scrt2URL: 'https://embraed--devservice.sandbox.my.salesforce-scrt.com'
 				}
 			);
-			embeddedservice_bootstrap.openMessagingWindow();
 		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
 		}
@@ -45,4 +27,11 @@
 <script type='text/javascript' src='https://embraed--devservice.sandbox.my.site.com/ESWEmbraedChannelWeb1730122274215/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
+
+	    <!-- Estilo para customizar o botão do chat -->
+ <style>
+.chatHeader[lwc-c5th8h1hm8]{
+	background-color: blue;
+}
+</style>
 
