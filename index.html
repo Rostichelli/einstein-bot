@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-.chatHeader{
-	background-color: blue;
-}
-</style>
 <body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'pt_BR'; // For example, enter 'en' or 'en-US'
+			embedded_svc.settings.displayHelpButton = 'false';
+
 
 			embeddedservice_bootstrap.init(
 				'00D890000023wRJ',
